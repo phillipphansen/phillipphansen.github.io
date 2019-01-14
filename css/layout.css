@@ -1,0 +1,95 @@
+/*
+    Name:   Phil Hansen
+    Class:  CIST 3900
+    Desc:   The custom layout style sheet for my project webiste
+*/
+body {
+    margin: 0px auto;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #87ceeb;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+header {
+    font-variant: small-caps;
+    text-align: center;
+    background-color: #ffa07a;
+    max-height: 196px;
+    min-width: 720px;
+}
+header h1{
+    font-size: 4em;
+    transform: translate(0%, -65%);
+    max-height: 180px;
+    display: inline-block;
+    padding: 8px;
+    width: 20%;
+}
+nav {
+    /* min-width: 680px; */
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    min-width: 720px;
+}
+nav a {
+    display: inline-block;
+    padding: 4px;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    width: 180px;
+    height: auto;
+}
+nav a:hover {
+    background-color: #f0f0f0;
+    color: #000000;
+}
+
+footer {
+    text-align: center;
+    min-width: 720px;
+}
+footer p {
+    margin: 8px;
+}
+
+.header--left {
+    text-align: right;
+}
+.header--right {
+    text-align: left;
+}
+.nav--current-page {
+    background-color: #ffffff;
+    color: #000000;
+}
+.content {
+    background-color: #ffffff;
+    min-width: 720px;
+    margin: auto;
+}
+.content--body {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+.content--body a {
+    text-decoration: underline;
+}
+.content--body div {
+    display: inline-block;
+}
+.content--body--block--text {
+    width: 720px;
+    text-align: left;
+}
+.content--body--block img{
+    width: 360px;
+    margin:26px 32px 26px 0px;
+    vertical-align: top;
+}
+
